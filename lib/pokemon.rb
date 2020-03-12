@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Pokemon
 
     attr_accessor :id, :name, :type, :db
@@ -19,3 +20,20 @@ class Pokemon
 			self.new(id: pokemon[0], name: pokemon[1], type: pokemon[2], db: db)
     end
 end
+=======
+class Pokemon
+  
+  attr_accessor :id, :name, :type, :db
+  
+  def initialize(id:, name:, type:, db:)
+    @id = id 
+    @name = name 
+    @type = type
+    @db = db
+  end 
+  
+  def self.save(name, type, db)
+    
+  end 
+end
+>>>>>>> 542c995dbe391f85208a5003652583aaa9fe3407
