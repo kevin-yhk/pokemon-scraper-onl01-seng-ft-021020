@@ -36,4 +36,3 @@ class Pokemon
     
   end 
 end
->>>>>>> 542c995dbe391f85208a5003652583aaa9fe3407
